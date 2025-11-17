@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.geometry.*?>
+
+<StackPane xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml"
+           fx:controller="com.example.sadiq_2207036_cvbuilder.HomeController"
+           style="-fx-background-color: linear-gradient(to bottom right, #3b82f6, #06b6d4);">
+    <VBox alignment="CENTER" spacing="30">
+        <Label text="Create Your Own CV"
+               style="-fx-font-size: 36; -fx-font-weight: bold; -fx-text-fill: white; -fx-effect: dropshadow(gaussian, #00000055, 6, 0.5, 2, 2);"/>
+        <Button text="Generate Your CV"
+                fx:id="generateCVButton"
+                style="-fx-background-color: white; -fx-text-fill: #3b82f6; -fx-font-size: 20; -fx-font-weight: bold; -fx-padding: 16 40; -fx-background-radius: 30; -fx-effect: dropshadow(gaussian, #00000033, 4, 0.3, 1, 1);"
+                onAction="#goToCVForm"/>
+    </VBox>
+</StackPane>
